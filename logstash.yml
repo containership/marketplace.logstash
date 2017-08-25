@@ -1,0 +1,3 @@
+# Disable xpack monitoring, until all ELK stack components support it.
+# https://github.com/elastic/logstash-docker/issues/15
+xpack.monitoring.enabled: false
